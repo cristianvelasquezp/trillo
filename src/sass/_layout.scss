@@ -9,7 +9,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,5 +32,27 @@
   background-color: #fff;
   flex: 1;
 
-  height: 80rem;
+}
+
+.detail {
+  font-size: 1.4rem;
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
+}
+
+.description {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis:60%;
+  margin-right: 4.5rem;
+  background-color: #fff;
+  box-shadow: var(--light-shadow);
+  padding: 3rem;
+}
+
+.user-reviews {
+  flex-grow: 1;
+  background-color: #fff;
 }
